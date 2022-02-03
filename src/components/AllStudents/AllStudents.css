@@ -1,0 +1,19 @@
+li{
+    font-size: 20px;
+    list-style: none;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+li:nth-child(even){
+    background-color: #ddd;
+}
+.list-title{
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.button-group{
+    width: 70%;
+    float: right;
+}
